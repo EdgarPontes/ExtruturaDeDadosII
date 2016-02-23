@@ -995,3 +995,107 @@
 2016-02-22 23:20:29,892 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
 2016-02-22 23:20:29,894 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-02-22 23:20:29,894 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:22:29,020 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:22:29,036 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:22:29,041 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:22:29,042 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:22:34,143 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:22:34,144 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:22:34,149 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:22:34,149 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:22:44,212 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:22:44,225 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:22:44,272 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:22:44,272 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:23:11,261 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:23:11,262 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:23:11,265 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:23:11,265 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:24:23,616 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:24:23,617 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:24:23,620 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:24:23,620 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:25:17,186 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:25:17,187 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:25:17,189 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:25:17,190 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:26:34,684 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:26:34,685 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:26:34,689 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:26:34,690 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:26:44,455 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:26:44,456 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:26:44,466 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:26:44,467 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:27:20,040 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:27:20,041 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:27:20,046 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:27:20,048 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:27:28,513 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:27:28,514 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:27:28,518 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:27:28,519 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:28:59,904 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:28:59,904 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:28:59,908 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:28:59,908 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:29:05,302 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:29:05,303 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:29:05,305 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:29:05,305 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:29:45,668 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:29:45,669 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:29:45,671 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:29:45,671 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:30:01,334 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:30:01,334 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:30:01,337 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:30:01,337 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:30:25,444 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:30:25,444 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:30:25,446 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:30:25,447 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:30:48,303 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:30:48,304 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:30:48,309 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:30:48,310 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:31:02,444 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:02,445 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:31:02,448 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:02,449 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:31:16,062 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:16,064 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:31:16,068 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:16,069 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:31:20,876 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:20,877 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:31:20,880 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:20,891 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:31:24,000 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:24,001 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:31:24,007 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:24,008 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:31:47,961 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:47,961 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:31:47,965 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:31:47,965 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:33:03,676 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:33:03,677 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:33:03,681 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:33:03,682 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:34:31,154 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:34:31,155 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:34:31,157 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:34:31,158 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:37:06,557 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:37:06,558 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:37:06,562 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:37:06,562 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:38:21,416 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:38:21,417 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:38:21,419 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:38:21,420 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources
+2016-02-23 13:39:42,225 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:39:42,226 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/main/resources
+2016-02-23 13:39:42,228 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-23 13:39:42,229 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/EscreverNumero/src/test/resources

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EscreveNumeroTeste" project="EscreverNumero" tests="27" started="27" failures="2" errors="0" ignored="0">
+  <testsuite name="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.003">
+    <testcase name="receberValorUnidadeAltaTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="numeroLiterarioTeste1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberMilharCentenaDezenaUnidadeTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="transformaInteiroEmArrayTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.001"/>
+    <testcase name="transformaInteiroEmArrayTest2" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="transformaInteiroEmArrayTest3" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberMilharCentenaDezenaUnidadeTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberMilharCentenaDezenaUnidadetrescasasTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0">
+      <failure>
+        <expected>um mil e quinhentos e dezenoves</expected>
+        <actual>um mil e quinhentos e onze</actual>org.junit.ComparisonFailure: expected:&lt;... mil e quinhentos e [dezenoves]&gt; but was:&lt;... mil e quinhentos e [onze]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste.receberMilharCentenaDezenaUnidadetrescasasTest1(EscreveNumeroTeste.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+</failure>
+    </testcase>
+    <testcase name="receberValorUnidadeTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberMilharCentenaDezenaUnidadetrescasasTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="numeroZeroCentenaTeste" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberCentenaDezenaUnidadeQuebradoTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.001">
+      <failure>
+        <expected>quinhentos e quatorze</expected>
+        <actual>quinhentos e onze</actual>org.junit.ComparisonFailure: expected:&lt;quinhentos e [quator]ze&gt; but was:&lt;quinhentos e [on]ze&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste.receberCentenaDezenaUnidadeQuebradoTest1(EscreveNumeroTeste.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+</failure>
+    </testcase>
+    <testcase name="receberValorDezenaUnidadeTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="ordenaArrayTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberValorUnidadeTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="numeroZeroTeste" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="separaCentenaTeste" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="numeroZeroCentenaTeste1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberCentenaDezenaUnidadeTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberValorUnidadeAltaTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="separaCentenaTeste1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberCentenaDezenaUnidadeQuebradoTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="numeroLiterarioTeste" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="transformaInteiroEmArrayTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberCentenaDezenaUnidadeTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.001"/>
+    <testcase name="ordenaArrayTest" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+    <testcase name="receberValorDezenaUnidadeTest1" classname="br.com.tecnonoticias.escreverNumero.EscreverNumero.EscreveNumeroTeste" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -67,6 +67,22 @@ public class EscreveNumeroTeste {
 	}
 	
 	@Test
+	public void receberCentenaDezenaUnidadeQuebradoTest1() {
+		int[] num = { 5, 1, 4 };
+		String retorno = teste.imprimi(num, teste.separaCentena(510));
+		String esperado = "quinhentos e quatorze";
+		Assert.assertEquals(esperado, retorno);
+	}
+	
+	@Test
+	public void receberMilharCentenaDezenaUnidadetrescasasTest1() {
+		int[] num = {  1, 5, 1, 9 };
+		String retorno = teste.imprimiMilhar(num, teste.separaCentena(1511));
+		String esperado = "um mil e quinhentos e dezenoves";
+		Assert.assertEquals(esperado, retorno);
+	}
+	
+	@Test
 	public void receberMilharCentenaDezenaUnidadeTest1() {
 		int[] num = {  2, 0, 0, 0 };
 		String retorno = teste.imprimiMilhar(num, teste.separaCentena(0));

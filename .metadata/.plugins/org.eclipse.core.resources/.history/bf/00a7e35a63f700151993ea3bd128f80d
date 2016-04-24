@@ -1,0 +1,9 @@
+package br.com.tecnonoticias.QuickSort;
+
+public class QuickSort {
+	
+	static void ordenar(int[] vetor, int inicio, int fim){
+		
+	}
+
+}

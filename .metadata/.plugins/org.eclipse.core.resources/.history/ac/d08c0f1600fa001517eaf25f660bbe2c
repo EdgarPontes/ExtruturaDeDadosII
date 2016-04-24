@@ -1,0 +1,35 @@
+package br.com.tecnonoticias.escreverNumero.SelectSort;
+
+public class SelectSort {
+
+	public void selectSort() {
+		int[] sort = { 8, 5, 3, 7, 1, 4 };
+
+		for (int fixo = 0; fixo < sort.length ; fixo++) {
+
+			int menor = fixo;
+
+			for (int j = fixo + 1; j < sort.length; j++) {
+			
+				if (sort[j] < sort[menor]) {
+			
+					menor = j;
+					
+				}
+			}
+			if (menor != fixo) {
+				
+				int aux = sort[fixo];
+				
+				sort[fixo] = sort[menor];
+				
+				sort[menor] = aux;
+			}
+			System.out.println(sort[fixo]);
+		}
+	}
+
+	public static void main(String[] args) {
+		new SelectSort().selectSort();
+	}
+}

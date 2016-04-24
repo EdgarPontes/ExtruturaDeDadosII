@@ -1,0 +1,15 @@
+package br.com.tecnonoticias.InsertionSort;
+
+public class InsertionSort {
+	
+	public static void main(String[] args) {
+
+		int i = 0;
+		int j = 0;
+		int eleito;
+		
+		
+
+	}
+
+}

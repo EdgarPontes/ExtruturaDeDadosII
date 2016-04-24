@@ -190,7 +190,7 @@ public class EscreveNumero {
 
 	public int[] quebraNumero(int test) {
 
-		String[] x = String.valueOf(test).split("");
+		String[] x = String.valueOf(test).split("")	;
 		int[] retornaArray = new int[x.length - 1];
 
 		for (int i = 0; i < x.length - 1; i++) {

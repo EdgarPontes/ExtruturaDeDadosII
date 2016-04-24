@@ -13,6 +13,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/media/edgar/Novo volume/faculdade/ExtruturaDeDadosII/InsertionSort"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -28,9 +29,17 @@
 			<item value="br.com.tecnonoticias.escreverNumero"/>
 		</list>
 		<list key="package">
+			<item value="br.com.tecnonoticias.BubbleSort"/>
+			<item value="br.com.tecnonoticias.QuickSort"/>
+			<item value="br.com.tecnonoticias.InsertionSort"/>
+			<item value="br.com.tecnonoticias.escreverNumero.SelectSort"/>
 			<item value="br.com.tecnonoticias.escreverNumero.EscreverNumero"/>
 		</list>
 		<list key="artifactId">
+			<item value="BubbleSort"/>
+			<item value="QuickSort"/>
+			<item value="InsertionSort"/>
+			<item value="SelectSort"/>
 			<item value="EscreverNumero"/>
 		</list>
 		<list key="projectNameTemplate">

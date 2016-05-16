@@ -1,35 +1,50 @@
 package br.com.tecnonoticias.escreverNumero.SelectSort;
 
+import java.util.Arrays;
+
+import br.com.tecnonoticias.sortAlgorithm.numbers.ManufacturingJumbledNumbers;
+
 public class SelectSort {
 
-	public void selectSort() {
-		int[] sort = { 8, 5, 3, 7, 1, 4 };
+	private static void selectSort(int[] vetor) {
 
-		for (int i = 0; i < sort.length ; i++) {
+		for (int i = 0; i < vetor.length; i++) {
 
 			int menor = i;
 
-			for (int j = i + 1; j < sort.length; j++) {
-			
-				if (sort[j] < sort[menor]) {
-			
+			for (int j = i + 1; j < vetor.length; j++) {
+
+				if (vetor[j] < vetor[menor]) {
+
 					menor = j;
-					
+
 				}
 			}
 			if (menor != i) {
-				
-				int aux = sort[i];
-				
-				sort[i] = sort[menor];
-				
-				sort[menor] = aux;
+
+				int aux = vetor[i];
+
+				vetor[i] = vetor[menor];
+
+				vetor[menor] = aux;
 			}
-			System.out.println(sort[i]);
 		}
 	}
 
 	public static void main(String[] args) {
-		new SelectSort().selectSort();
+
+		ManufacturingJumbledNumbers numbers = new ManufacturingJumbledNumbers();
+
+		int[] vetor = numbers.jumbledNumbers(10);
+
+		System.out.println(Arrays.toString(vetor));
+
+		selectSort(vetor);
+		
+		System.out.println();
+		
+		for ( int i = 0; i < vetor.length; i++) {
+			System.out.print(vetor[i] + " ");
+		}
 	}
 }

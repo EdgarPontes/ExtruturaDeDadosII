@@ -2,6 +2,8 @@ package br.com.tecnonoticias.QuickSort;
 
 import java.util.Arrays;
 
+import br.com.tecnonoticias.sortAlgorithm.numbers.ManufacturingJumbledNumbers;
+
 public class QuickSort {
 
 	static void ordenar(int[] vetor, int inicio, int fim) {
@@ -35,9 +37,13 @@ public class QuickSort {
 	}
 
 	public static void main(String[] args) {
-		int[] vetor = { 19, 32, 4, 56, 7, 8, 1, 3, 9 };
-		ordenar(vetor, 0, vetor.length - 1);
+		ManufacturingJumbledNumbers numbers = new ManufacturingJumbledNumbers();
+		
+		int[] vetor = numbers.jumbledNumbers(100);
+		
 		System.out.println(Arrays.toString(vetor));
+		
+		ordenar(vetor, 0, vetor.length - 1);
 
 		for (int i = 0; i < vetor.length; i++) {
 			System.out.print(vetor[i] + " ");

@@ -1,5 +1,7 @@
 package br.com.tecnonoticias.BubbleSort;
 
+import br.com.tecnonoticias.sortAlgorithm.numbers.ManufacturingJumbledNumbers;
+
 public class BubbleSort {
 
 	public BubbleSort(int[] vetor) {
@@ -23,10 +25,22 @@ public class BubbleSort {
 	}
 
 	public static void main(String[] args) {
-		int[] vetor = { 9, 2, 5, 3, 7, 8, 4, 6, 1 };
+//		int[] vetor = { 9, 2, 5, 3, 7, 8, 4, 6, 1 };
+		ManufacturingJumbledNumbers numbers = new ManufacturingJumbledNumbers();
+		
+		int[] vetor = numbers.jumbledNumbers(100);
+			
+			System.out.println("Vetor sem ordenação: ");
+			
+		for (int i : vetor) {
+			
+			System.out.print(i + " ");
+		}
 
 		new BubbleSort(vetor);
-
+		System.out.println();
+		System.out.println("Vetor com ordenação: ");
+	
 		for (int i = 0; i < vetor.length; i++) {
 			System.out.print(vetor[i] + " ");
 

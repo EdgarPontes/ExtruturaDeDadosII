@@ -1,18 +1,17 @@
 package br.com.tecnonoticias.InsertionSort;
 
+import java.util.Arrays;
+
+import br.com.tecnonoticias.sortAlgorithm.numbers.ManufacturingJumbledNumbers;
+
 public class InsertionSort {
-
-	public static void main(String[] args) {
-
+	
+	private static void ordenarInsertionSort(int[] vetor){
+		
 		int eleito;
 		int j ;
 		int i;
 		
-		int[] vetor = { 9, 3, 5, 1, 8, 4, 2, 6 };
-		for (int k = 0; k < vetor.length; k++) {
-			
-			System.out.print(vetor[k]);
-		}
 		for ( i = 1; i < vetor.length; i++) {
 			
 			eleito = vetor[i];
@@ -24,9 +23,22 @@ public class InsertionSort {
 			vetor[j] = eleito;
 			
 		}
+		
+	}
+
+	public static void main(String[] args) {
+
+		ManufacturingJumbledNumbers numbers = new ManufacturingJumbledNumbers();
+		
+		int[] vetor = numbers.jumbledNumbers(10);
+		
+		System.out.println(Arrays.toString(vetor));
+		
+		ordenarInsertionSort(vetor);
+		
 		System.out.println();
-		for ( i = 0; i < vetor.length; i++) {
-			System.out.print(vetor[i]);
+		for ( int i = 0; i < vetor.length; i++) {
+			System.out.print(vetor[i] + " ");
 		}
 	}
 }

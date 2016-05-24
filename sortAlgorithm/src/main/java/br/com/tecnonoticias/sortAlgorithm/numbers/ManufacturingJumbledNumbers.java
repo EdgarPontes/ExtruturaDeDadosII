@@ -15,5 +15,15 @@ public class ManufacturingJumbledNumbers {
 		return vetor;
 		
 	}
+	public int[] orderNumbers(int number){
+		
+		int[] vetor = new int[number];
+		
+		for (int i = 0; i < vetor.length; i++) {
+			
+			vetor[i] = i+1;
+		}
+		return vetor;
+	}
 
 }

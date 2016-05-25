@@ -1,16 +1,19 @@
 package br.com.tecnonoticias.search;
 
+import java.text.Normalizer;
+import java.util.Scanner;
+
 public class BinarySearch {
-	
-	public static String[] nameOrder(){
-		
+
+	public static String[] nameOrder() {
+
 		String[] names = new String[100];
-		
+
 		names[0] = "Jurandir";
 		names[1] = "jose";
 		names[2] = "Miguel";
 		names[3] = "Davi";
-		names[4] = "Arthur";
+		names[4] = "Árthur";
 		names[5] = "Pedro";
 		names[6] = "Gabriel";
 		names[7] = "Bernardo";
@@ -107,11 +110,12 @@ public class BinarySearch {
 		names[98] = "Shakira";
 		names[99] = "Stefano";
 
-		ordenarString(names, 0, names.length -1);;
-		
+		ordenarString(names, 0, names.length - 1);
+		;
+
 		return names;
 	}
-	
+
 	public static void ordenarString(String[] vetor, int inicio, int fim) {
 		if (inicio < fim) {
 			int posicaoPivo = separarString(vetor, inicio, fim);
@@ -143,66 +147,76 @@ public class BinarySearch {
 				return end;
 		}
 	}
-	
-	public static int binarySearch(int[] vetor , int number){
-		
+
+	public static int binarySearch(int[] vetor, int number) {
+
 		int start = 0;
 		int end = vetor.length - 1;
-		int center ;
-		
+		int center;
+
 		while (start <= end) {
-			
+
 			center = (start + end) / 2;
-			
-			if (vetor[center] == number) 
+
+			if (vetor[center] == number)
 				return center;
-			else if (vetor[center] < number) 
+			else if (vetor[center] < number)
 				start = center + 1;
-			else if (vetor[center] > number) 
+			else if (vetor[center] > number)
 				end = center - 1;
-		
+
 		}
 		return -1;
 	}
-	
-	public static int binarySearchString(String[] vetor , String name){
-			
-			int start = 0;
-			int end = vetor.length - 1;
-			int center ;
-			
-			while (start <= end) {
-				
-				center = (start + end) / 2;
-				
-				if (vetor[center] == name) 
-					return center;
-				else if (vetor[center].compareTo(name) < 0) 
-					start = center + 1;
-				else if (vetor[center].compareTo(name) > 0) 
-					end = center - 1;
-			
-			}
-			return -1;
+
+	public static int binarySearchString(String[] vetor, String name) {
+
+		int start = 0;
+		int end = vetor.length - 1;
+		int center;
+
+		while (start <= end) {
+			center = (start + end) / 2;
+
+			if (removerAcentos(vetor[center]).compareToIgnoreCase(removerAcentos(name)) == 0)
+				return center;
+			else if (removerAcentos(vetor[center]).compareToIgnoreCase(removerAcentos(name)) < 0)
+				start = center + 1;
+			else if (removerAcentos(vetor[center]).compareToIgnoreCase(removerAcentos(name)) > 0)
+				end = center - 1;
+
 		}
-	
-	public static void main(String[] args) {
+		return -1;
+	}
+
+	public static String removerAcentos(String str) {
 		
+		return Normalizer.normalize(str, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
+		
+	}
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+				
 		String[] vetor = nameOrder();
 		
-		int numberResult = binarySearchString(vetor, "Stefano");
+		System.out.println("Digite o nome para busca: ");
 		
+		String name = teclado.nextLine();
+		int numberResult = binarySearchString(vetor, name);
+
 		System.out.println(numberResult);
-		
-//		ManufacturingJumbledNumbers numbers = new ManufacturingJumbledNumbers();
-//		
-//		int[] vetor = numbers.orderNumbers(100);
-//		
-//		System.out.println(Arrays.toString(vetor));
-//		
-//		int nummberSerach = binarySearch(vetor, 101);
-//		
-//		System.out.println(nummberSerach);
+
+		// ManufacturingJumbledNumbers numbers = new
+		// ManufacturingJumbledNumbers();
+		//
+		// int[] vetor = numbers.orderNumbers(100);
+		//
+		// System.out.println(Arrays.toString(vetor));
+		//
+		// int nummberSerach = binarySearch(vetor, 101);
+		//
+		// System.out.println(nummberSerach);
 	}
 
 }

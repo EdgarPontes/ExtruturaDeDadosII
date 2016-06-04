@@ -196,6 +196,7 @@ public class BinarySearch {
 	}
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
 				
 		String[] vetor = nameOrder();

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Extract constant &apos;MILHAR&apos; from expression &apos;4&apos;&#x0A;- Original project: &apos;EscreverNumero&apos;&#x0A;- Constant name: &apos;MILHAR&apos;&#x0A;- Constant expression: &apos;4&apos;&#x0A;- Declared visibility: &apos;private&apos;" description="Extract constant &apos;MILHAR&apos;" flags="786432" id="org.eclipse.jdt.ui.extract.constant" input="/src\/main\/java&lt;br.com.tecnonoticias.escreverNumero.EscreverNumero{EscreveNumero.java" name="MILHAR" qualify="false" replace="false" selection="2493 0" stamp="1456193851023" version="1.0" visibility="2"/>
-</session>

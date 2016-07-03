@@ -1,7 +1,10 @@
 package br.com.tecnonoticias.search;
 
 import java.text.Normalizer;
+import java.util.Arrays;
 import java.util.Scanner;
+
+import br.com.tecnonoticias.sortAlgorithm.numbers.ManufacturingJumbledNumbers;
 
 public class BinarySearch {
 
@@ -108,7 +111,7 @@ public class BinarySearch {
 		names[96] = "Kelvi";
 		names[97] = "Snoop Dog";
 		names[98] = "Shakira";
-		names[99] = "Stefano";
+		names[99] = "Edgar";
 
 		ordenarString(names, 0, names.length - 1);
 		;
@@ -169,6 +172,22 @@ public class BinarySearch {
 		return -1;
 	}
 
+	public static int binarySearchR(int[] array, int menor, int maior, int chave) {
+		
+		int media = (maior + menor) / 2;
+		int valorMeio = array[media];
+
+		if (menor > maior) {
+			return -1;
+		} else if (valorMeio == chave) {
+			return media;
+		} else if (valorMeio < chave) {
+			return binarySearchR(array, media + 1, maior, chave);
+		} else {
+			return binarySearchR(array, menor, media - 1, chave);
+		}
+	}
+
 	public static int binarySearchString(String[] vetor, String name) {
 
 		int start = 0;
@@ -190,34 +209,37 @@ public class BinarySearch {
 	}
 
 	public static String removerAcentos(String str) {
-		
+
 		return Normalizer.normalize(str, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
-		
+
 	}
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner teclado = new Scanner(System.in);
-				
+
 		String[] vetor = nameOrder();
-		
+
 		System.out.println("Digite o nome para busca: ");
-		
+
 		String name = teclado.nextLine();
 		int numberResult = binarySearchString(vetor, name);
 
-		System.out.println(numberResult);
+		System.out.println("O nome está na posição: " + numberResult);
+		
+		
 
-		// ManufacturingJumbledNumbers numbers = new
-		// ManufacturingJumbledNumbers();
-		//
-		// int[] vetor = numbers.orderNumbers(100);
-		//
-		// System.out.println(Arrays.toString(vetor));
-		//
-		// int nummberSerach = binarySearch(vetor, 101);
-		//
-		// System.out.println(nummberSerach);
+		 ManufacturingJumbledNumbers numbers = new ManufacturingJumbledNumbers();
+		
+		 int[] vetorNumeros = numbers.orderNumbers(100);
+		 System.out.println();
+		 System.out.println("Vetor de numeros não ordenados: ");
+		 System.out.println(Arrays.toString(vetorNumeros));
+		
+		 int nummberSerach = binarySearchR(vetorNumeros, 0, vetorNumeros.length - 1, 10);
+		 
+		 System.out.println("O numero da busca está na posição: ");
+		 System.out.println(nummberSerach);
 	}
 
 }
